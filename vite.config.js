@@ -45,9 +45,9 @@ export default defineConfig({
       input: {
 
         "root": "./src/index.html",
+
         //Pour ajouter un sous dossier ajouter un "/le nom de la page" après la route de base
-        
-        // "1-hub": "./src/experiences/1-hub/index.html",
+        "1-hub": "./src/experiences/1-hub/index.html",
         // "2-arts-reserve": "./src/experiences/2-arts-reserve/index.html",
         // "3-techniques": "./src/experiences/3-techniques/index.html",
         // "4-sculpture": "./src/experiences/4-sculpture/index.html",

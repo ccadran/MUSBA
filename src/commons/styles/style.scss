@@ -1,0 +1,40 @@
+@use "./components/Modal.scss";
+@use "./components/StatsDisplay.scss";
+@use "./components/StepsDisplay.scss";
+@use "./components/Button.scss";
+@use "./fonts.scss";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+h2,.h2-title{
+    font-family: Helvetica;
+    font-size: 92px;
+    line-height: 80%;
+    font-weight: 400;
+}
+
+h3,.h3-title{
+    font-family: Helvetica;
+    font-size: 72px;
+    line-height: 80%;
+    font-weight: 400;
+}
+
+.h3-title-serif{
+    font-family: NyghtSerif;
+    font-size: 72px;
+    line-height: 100%;
+    font-weight: 400;
+}
+
+p,.content{
+    font-family: Helvetica;
+    font-size: 48px;
+    line-height: 120%;
+    font-weight: 400;
+}

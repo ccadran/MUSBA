@@ -1,0 +1,17 @@
+// import fonts
+
+@font-face {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../../../public/commons/fonts/Helvetica.ttc') ;
+}
+
+@font-face {
+    font-family: 'NyghtSerif';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../../../public/commons/fonts/NyghtSerif-Regular.woff2') format('woff2'),
+         url('../../../public/commons/fonts/NyghtSerif-Regular.woff') format('woff');
+}
+

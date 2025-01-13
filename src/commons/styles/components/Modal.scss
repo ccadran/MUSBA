@@ -1,0 +1,21 @@
+.modal{
+    display: flex;
+    flex-direction: column;
+    width: 1350px;
+    border: 1px solid black;
+    gap: 32px;
+    
+    h3{
+        padding: 32px;
+    }
+    p{
+        padding: 32px;
+    }
+
+    .line{
+        height: 1px;
+        width: 100%;
+        background-color: black;
+    }
+
+}

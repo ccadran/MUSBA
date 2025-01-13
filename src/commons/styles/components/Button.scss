@@ -1,0 +1,25 @@
+.button{
+    font-family: Helvetica;
+    text-decoration: none;
+    &.black{
+        background-color: black;
+        color: white;
+    }
+    &.white{
+        background-color: white;
+        color: black;
+        border: 1px solid black;
+    }
+    &.big{
+        padding: 32px 64px;
+        font-size: 92px;
+    }
+    &.normal{
+        padding: 32px 64px;
+        font-size: 72px;
+    }
+    &.small{
+        padding: 16px 32px;
+        font-size: 48px;
+    }
+}

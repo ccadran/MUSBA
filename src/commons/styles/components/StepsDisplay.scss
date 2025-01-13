@@ -1,0 +1,12 @@
+.steps-display{
+    width: fit-content;
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    .steps-container{
+        display: flex;
+        padding: 42px 32px;
+        color: white;
+    }
+}
